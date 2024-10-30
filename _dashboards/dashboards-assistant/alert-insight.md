@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Text to Visualization
+title: Alert Insight
 parent: OpenSearch Assistant for OpenSearch Dashboards
 nav_order: 1
 has_children: false
