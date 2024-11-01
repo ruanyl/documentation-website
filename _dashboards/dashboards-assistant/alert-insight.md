@@ -133,7 +133,28 @@ context | the context of the alert, should includes alert monitor definition, ac
 index | the index on which the alert is monitoring. No analyze on log pattern if missing                                        | `false`
 dsl | the dsl which alert for monitoring. No analyze on log pattern if missing                                                | `false`
 topNLogPatternData | the log patterns of alert trigger data. No analyze on log pattern if missing                                            | `false`
-insightType | the type of alert, `os_insight` stands for cluster metrics alert and `user_insight` stands for other alert types        | `false`
+
+Call API `/api/assistant/insight` to generate alert insight, all the five parameters are required.
+```
+POST /api/assistant/insight
+{
+  "summaryType": "alerts",
+  "insightType": "user_insight"
+  "context": "\n            Here is the detail information about alert Error log over 100\n            ### Monitor definition\n {\"type\":\"monitor\",\"schema_version\":8,\"name\":\"loghub-apache-error-log\",\"monitor_type\":\"query_level_monitor\",\"enabled\":false,\"enabled_time\":null,\"schedule\":{\"period\":{\"interval\":1,\"unit\":\"MINUTES\"}},\"inputs\":[{\"search\":{\"indices\":[\"loghub-apache-new\"],\"query\":{\"size\":0,\"query\":{\"bool\":{\"filter\":[{\"range\":{\"Time\":{\"from\":\"10/12/24 11:21 am CST||-1000000h\",\"to\":\"10/12/24 11:21 am CST\",\"include_lower\":true,\"include_upper\":true,\"boost\":1}}},{\"term\":{\"Level\":{\"value\":\"error\",\"boost\":1}}}],\"adjust_pure_negative\":true,\"boost\":1}}}}}],\"triggers\":[{\"query_level_trigger\":{\"id\":\"NAq7fpIBRJyww-JMjwP_\",\"name\":\"Error log over 100\",\"severity\":\"1\",\"condition\":{\"script\":{\"source\":\"ctx.results[0].hits.total.value > 100\",\"lang\":\"painless\"}},\"actions\":[]}}],\"last_update_time\":1728714554388,\"owner\":\"alerting\",\"associated_workflows\":[],\"associatedCompositeMonitorCnt\":0,\"item_type\":\"query_level_monitor\",\"id\":\"NQq7fpIBRJyww-JMkAMC\",\"version\":3}\n\n            ### Active Alert\n {\"ACTIVE\":1,\"ACKNOWLEDGED\":0,\"ERROR\":0,\"total\":1,\"alerts\":[{\"id\":\"Wgq8fpIBRJyww-JMegNr\",\"monitor_id\":\"NQq7fpIBRJyww-JMkAMC\",\"workflow_id\":\"\",\"workflow_name\":\"\",\"associated_alert_ids\":[],\"schema_version\":5,\"monitor_version\":1,\"monitor_name\":\"loghub-apache-error-log\",\"execution_id\":\"NQq7fpIBRJyww-JMkAMC_2024-10-12T03:18:54.311214115_22d189ce-5e93-4927-b8bb-bcf61b7537e3\",\"trigger_id\":\"NAq7fpIBRJyww-JMjwP_\",\"trigger_name\":\"Error log over 100\",\"finding_ids\":[],\"related_doc_ids\":[],\"state\":\"ACTIVE\",\"error_message\":null,\"alert_history\":[],\"severity\":\"1\",\"action_execution_results\":[],\"start_time\":\"10/12/24 11:18 am CST\",\"last_notification_time\":\"10/12/24 11:21 am CST\",\"end_time\":null,\"acknowledged_time\":null,\"alert_source\":\"monitor\"}],\"trigger_name\":\"Error log over 100\",\"severity\":\"1\",\"start_time\":\"10/12/24 11:18 am CST\",\"last_notification_time\":\"10/12/24 11:21 am CST\",\"monitor_name\":\"loghub-apache-error-log\",\"monitor_id\":\"NQq7fpIBRJyww-JMkAMC\",\"alert_source\":\"monitor\",\"triggerID\":\"NAq7fpIBRJyww-JMjwP_\"}\n\n            ### Value triggers this alert\n 595\n\n            ### Alert query DSL {\"query\":{\"bool\":{\"filter\":[{\"range\":{\"Time\":{\"from\":\"2024-10-12T03:21:54+00:00||-1000000h\",\"to\":\"2024-10-12T03:21:54+00:00\",\"include_lower\":true,\"include_upper\":true,\"boost\":1}}},{\"term\":{\"Level\":{\"value\":\"error\",\"boost\":1}}}],\"adjust_pure_negative\":true,\"boost\":1}}} \n",
+  "question": "Please provide your insight on this alert",
+  "summary": <OUTPUT FROM ALERT SUMMARY AGENT>
+}
+```
+{% include copy-curl.html %}
+
+Parameter | Description                                                                                                      | Required
+:--- |:-----------------------------------------------------------------------------------------------------------------| :---
+summaryType | the type of application calling this API, always `alerts` for alert insight                                      | `true`
+insightType | the type of alert, `os_insight` stands for cluster metrics alert and `user_insight` stands for other alert types | `true`
+question | user's question about the alert insight, default is `Please summarize this alert, do not use any tool.`          | `true`
+context | the context of the alert, should includes alert monitor definition, active alerts and trigger value              | `true`
+summary | the output from the alert summary API                                                                            | `true`
+
 
 ## Alert insight UI
 Enter the alerting page, you will see sparkle icon beside each alert if configured correctly.
