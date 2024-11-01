@@ -162,3 +162,6 @@ Enter the alerting page, you will see sparkle icon beside each alert if configur
 
 Click the sparkle icon to start generating alert summary.
 <img width="700" src="{{site.url}}{{site.baseurl}}/images/dashboards-assistant/alert-insight-summary.png" alt="Alert insight summary">
+
+Click the information icon to start generating alert insight.
+<img width="700" src="{{site.url}}{{site.baseurl}}/images/dashboards-assistant/alert-insight-insight.png" alt="Alert insight summary">
