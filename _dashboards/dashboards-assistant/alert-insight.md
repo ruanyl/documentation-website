@@ -144,10 +144,9 @@ POST /_plugins/_flow_framework/workflow?provision=true
 For sample agent templates, see [Flow Framework sample templates](https://github.com/opensearch-project/flow-framework/tree/2.x/sample-templates). Note the agent ID; you'll use it in the following step.
 
 For this example, use the templates to create the following agents: 
-- An alert insights agent
+- An alert insights agent, see [flow template](https://github.com/opensearch-project/flow-framework/blob/2.x/sample-templates/create-knowledge-base-alert-agent.json)
 - Two summary agents:
     - A basic alert summary agent see [flow template](https://github.com/opensearch-project/flow-framework/blob/2.x/sample-templates/alert-summary-agent-claude-tested.json)
-    - An agent for alert insight, see [flow template](https://github.com/opensearch-project/flow-framework/blob/2.x/sample-templates/create-knowledge-base-alert-agent.json)
     - An agent for an alert summary that includes log patterns, see [flow template](https://github.com/opensearch-project/flow-framework/blob/2.x/sample-templates/alert-summary-log-pattern-agent.json)
 
     These agents require different prompts. The prompt for the log patterns summary must include a placeholder `${parameters.topNLogPatternData}` and additional instructions to guide the LLM on using this information effectively. Note that log patterns are available only for query monitors created using OpenSearch Dashboards.
