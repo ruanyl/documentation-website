@@ -45,8 +45,8 @@ The visualization editor is a query-driven visualization tool available at **Exp
 - [Build an area chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/area-chart/) using the visualization editor.
 - [Build a pie chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/pie-chart/) using the visualization editor.
 - [Build a bar chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/bar-chart/) using the visualization editor.
-- [Build a gauge]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/gauge-chart/) using the visualization editor.
-- [Build a bar gauge]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/bar-gauge-chart/) using the visualization editor.
-- [Build a heatmap]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/heatmap-chart/) using the visualization editor.
+- [Build a gauge chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/gauge-chart/) using the visualization editor.
+- [Build a bar gauge chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/bar-gauge-chart/) using the visualization editor.
+- [Build a heatmap chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/heatmap-chart/) using the visualization editor.
 - [Build a scatter chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/scatter-chart/) using the visualization editor.
-- [Build a state timeline]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/state-timeline-chart/) using the visualization editor.
+- [Build a state timeline chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/state-timeline-chart/) using the visualization editor.
