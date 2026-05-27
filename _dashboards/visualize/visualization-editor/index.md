@@ -27,12 +27,18 @@ The visualization editor is a query-driven visualization tool available at **Exp
 
 ## Chart types
 
-The following chart types are available in the visualization editor:
+- [Line chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/line-chart/)
+- [Gauge]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/gauge-chart/)
+- [Bar gauge]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/bar-gauge-chart/)
+- [Heatmap]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/heatmap-chart/)
+- [Scatter]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/scatter-chart/)
+- [State timeline]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/state-timeline-chart/)
 
-| Chart type | Best for |
-| --- | --- |
-| [Line chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/line-chart/) | Trends over time, comparing multiple series, correlating metrics |
+## Style options
+
+- [Style options]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/style-options/) — Shared settings available across multiple chart types.
 
 ## Next steps
 
-- [Build a line chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/line-chart/) using the visualization editor.
+- Explore individual chart type pages for tutorials and configuration details.
+- Add your visualization to a [dashboard]({{site.url}}{{site.baseurl}}/dashboards/dashboard/).

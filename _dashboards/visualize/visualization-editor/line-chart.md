@@ -39,6 +39,20 @@ The following settings let you customize the appearance of the line chart.
 | **Line width** | 1–10 | Sets the thickness of the lines in pixels. |
 | **Show current time marker** | On/Off | When enabled, displays a vertical marker on the chart indicating the current time. |
 
+### Axes
+
+The X-axis and Y-axis share the same configuration options. Each axis can be independently customized.
+
+| Setting | Options | Description |
+| --- | --- | --- |
+| **Show axis** | On/Off | Toggle whether the axis is displayed. |
+| **Title** | Free text | A custom label for the axis. |
+| **Position** | X-axis: Top, Bottom / Y-axis: Left, Right | Controls the placement of the axis relative to the chart. |
+| **Show grid lines** | On/Off | When enabled, displays grid lines extending from the axis into the chart area. |
+| **Show labels** | On/Off | When enabled, displays category labels along the axis. |
+| **Label alignment** | Horizontal, Vertical, Angled | Controls the rotation of axis labels. Horizontal (0°), Vertical (90°), or Angled (45°). |
+| **Truncate after** | Number | Sets the maximum character length for axis labels before they are truncated. |
+
 ## Tutorial: Building line charts
 
 This tutorial walks you through progressively more complex line chart configurations using sample data. Each step builds on the previous one, introducing new capabilities.
