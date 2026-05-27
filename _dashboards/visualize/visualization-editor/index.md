@@ -32,7 +32,13 @@ The following chart types are available in the visualization editor:
 | Chart type | Best for |
 | --- | --- |
 | [Line chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/line-chart/) | Trends over time, comparing multiple series, correlating metrics |
+| [Area chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/area-chart/) | Volume over time, comparing category contributions, stacked totals |
+| [Pie chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/pie-chart/) | Proportions, part-to-whole relationships, categorical breakdowns |
+| [Bar chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/bar-chart/) | Comparing categories, ranking items, grouped comparisons, thresholds |
 
 ## Next steps
 
 - [Build a line chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/line-chart/) using the visualization editor.
+- [Build an area chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/area-chart/) using the visualization editor.
+- [Build a pie chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/pie-chart/) using the visualization editor.
+- [Build a bar chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/bar-chart/) using the visualization editor.
