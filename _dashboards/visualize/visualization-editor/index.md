@@ -27,13 +27,6 @@ The visualization editor is a query-driven visualization tool available at **Exp
 
 ## Chart types
 
-- [Line chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/line-chart/)
-- [Gauge]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/gauge-chart/)
-- [Bar gauge]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/bar-gauge-chart/)
-- [Heatmap]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/heatmap-chart/)
-- [Scatter]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/scatter-chart/)
-- [State timeline]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/state-timeline-chart/)
-
 | Chart type | Best for |
 | --- | --- |
 | [Line chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/line-chart/) | Trends over time, comparing multiple series, correlating metrics |
