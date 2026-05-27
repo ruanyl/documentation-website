@@ -34,11 +34,26 @@ The visualization editor is a query-driven visualization tool available at **Exp
 - [Scatter]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/scatter-chart/)
 - [State timeline]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/state-timeline-chart/)
 
-## Style options
-
-- [Style options]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/style-options/) — Shared settings available across multiple chart types.
+| Chart type | Best for |
+| --- | --- |
+| [Line chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/line-chart/) | Trends over time, comparing multiple series, correlating metrics |
+| [Area chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/area-chart/) | Volume over time, comparing category contributions, stacked totals |
+| [Pie chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/pie-chart/) | Proportions, part-to-whole relationships, categorical breakdowns |
+| [Bar chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/bar-chart/) | Comparing categories, ranking items, grouped comparisons, thresholds |
+| [Gauge]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/gauge-chart/) | Single KPI against targets, threshold monitoring |
+| [Bar gauge]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/bar-gauge-chart/) | Progress toward a goal, comparing multiple KPIs side by side |
+| [Heatmap]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/heatmap-chart/) | Density patterns, two-dimensional distributions, time-based intensity |
+| [Scatter]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/scatter-chart/) | Correlations between variables, outlier detection, group comparisons |
+| [State timeline]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/state-timeline-chart/) | Service status over time, alert progression, state transitions |
 
 ## Next steps
 
-- Explore individual chart type pages for tutorials and configuration details.
-- Add your visualization to a [dashboard]({{site.url}}{{site.baseurl}}/dashboards/dashboard/).
+- [Build a line chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/line-chart/) using the visualization editor.
+- [Build an area chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/area-chart/) using the visualization editor.
+- [Build a pie chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/pie-chart/) using the visualization editor.
+- [Build a bar chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/bar-chart/) using the visualization editor.
+- [Build a gauge]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/gauge-chart/) using the visualization editor.
+- [Build a bar gauge]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/bar-gauge-chart/) using the visualization editor.
+- [Build a heatmap]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/heatmap-chart/) using the visualization editor.
+- [Build a scatter chart]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/scatter-chart/) using the visualization editor.
+- [Build a state timeline]({{site.url}}{{site.baseurl}}/dashboards/visualize/visualization-editor/state-timeline-chart/) using the visualization editor.

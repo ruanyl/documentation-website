@@ -3,7 +3,7 @@ layout: default
 title: State timeline
 parent: Visualization editor
 grand_parent: Building data visualizations
-nav_order: 60
+nav_order: 90
 ---
 
 # State timeline

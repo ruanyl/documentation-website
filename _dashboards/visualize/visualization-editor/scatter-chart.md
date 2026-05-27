@@ -3,7 +3,7 @@ layout: default
 title: Scatter
 parent: Visualization editor
 grand_parent: Building data visualizations
-nav_order: 50
+nav_order: 80
 ---
 
 # Scatter
@@ -60,15 +60,6 @@ The X-axis and Y-axis share the same configuration options. Each axis can be ind
 | **Show labels** | On/Off | When enabled, displays category labels along the axis. |
 | **Label alignment** | Horizontal, Vertical, Angled | Controls the rotation of axis labels. Horizontal (0°), Vertical (90°), or Angled (45°). |
 | **Truncate after** | Number | Sets the maximum character length for axis labels before they are truncated. |
-
-### Legend
-
-The legend summarizes the visual color encodings used in the chart.
-
-| Setting | Options | Description |
-| --- | --- | --- |
-| **Show legend** | On/Off | Toggle whether the legend is displayed. |
-| **Position** | Left, Right, Top, Bottom | Controls where the legend appears relative to the chart. |
 
 ### Tooltip
 

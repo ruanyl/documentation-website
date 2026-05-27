@@ -3,7 +3,7 @@ layout: default
 title: Value mappings
 parent: Style Options
 grand_parent: Visualization editor
-nav_order: 85
+nav_order: 115
 ---
 
 # Value mappings

@@ -3,7 +3,7 @@ layout: default
 title: Thresholds
 parent: Style Options
 grand_parent: Visualization editor
-nav_order: 95
+nav_order: 105
 ---
 
 # Thresholds

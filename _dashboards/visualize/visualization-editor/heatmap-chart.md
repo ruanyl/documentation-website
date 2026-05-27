@@ -3,7 +3,7 @@ layout: default
 title: Heatmap
 parent: Visualization editor
 grand_parent: Building data visualizations
-nav_order: 40
+nav_order: 70
 ---
 
 # Heatmap

@@ -3,7 +3,7 @@ layout: default
 title: Bar gauge
 parent: Visualization editor
 grand_parent: Building data visualizations
-nav_order: 30
+nav_order: 60
 ---
 
 # Bar gauge

@@ -3,7 +3,7 @@ layout: default
 title: Value calculations
 parent: Style Options
 grand_parent: Visualization editor
-nav_order: 90
+nav_order: 110
 ---
 
 # Value calculations

@@ -3,7 +3,7 @@ layout: default
 title: Style Options
 parent: Visualization editor
 grand_parent: Building data visualizations
-nav_order: 80
+nav_order: 100
 has_children: true
 has_toc: false
 ---
